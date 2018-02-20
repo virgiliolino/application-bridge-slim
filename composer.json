@@ -1,22 +1,22 @@
 {
-    "name": "application-bridge-laravel/application-bridge-laravel",
+    "name": "application-bridge-slim/application-bridge-slim",
     "description": "Slim Application Bridge with the standard Application Bridge",
     "version": "1.0.0",
     "type": "library",
     "keywords": ["laravel", "interface", "openApi", "swagger", "dispatcher", "route", "builder", "slim", "framework"],
-    "homepage": "https://github.com/virgiliolino/application-bridge-laravel",
+    "homepage": "https://github.com/virgiliolino/application-bridge-slim",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Virgilio Lino",
             "email": "virgilio@posteo.de",
-            "homepage": "https://github.com/virgiliolino/application-bridge-laravel",
+            "homepage": "https://github.com/virgiliolino/application-bridge-slim",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/virgiliolino/application-bridge-laravel/issues",
-        "docs": "https://github.com/virgiliolino/application-bridge-laravel/blob/master/README.md"
+        "issues": "https://github.com/virgiliolino/application-bridge-slim/issues",
+        "docs": "https://github.com/virgiliolino/application-bridge-slim/blob/master/README.md"
     },
     "require": {
       "php": ">=5.3.0",
