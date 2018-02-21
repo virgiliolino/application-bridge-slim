@@ -1,12 +1,11 @@
 <?php
 namespace Sab\Application\Bridge;
 
-/*use Psr\Http\Message\RequestInterface;
+use Bridge\Application\ApplicationBridge;
+use Bridge\Application\RouteInterface;
+use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Slim\App;
-use Bridge\ApplicationBridge\Route;
-use Bridge\ApplicationBridge\CommandHandler;
-*/
 
 /**
  * Bridge between a SlimApplication and a Standard Application defined in ApplicationBrdige
@@ -27,7 +26,7 @@ class SlimBridge extends ApplicationBridge {
      * @return void
      */
 
-    public function addRoute(Route $route) {
+    public function addRoute(RouteInterface $route) {
         if (!$route->isValid()) {
             //perhaps some log?
             return;
